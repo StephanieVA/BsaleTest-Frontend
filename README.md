@@ -25,9 +25,11 @@ Con ayuda de este sistema pudimos subir los diferentes desarrollos de Backend y 
 
 ## DETALLES:
 
- - Enlace del proyecto: https://bsaletest-frontend-production-179c.up.railway.app/
+ - Enlace del proyecto: https://bsaletest-frontend-production-68dc.up.railway.app/
  - Se uso una imagen tipo gif para colocar una publicidad en la cabecera
- - Al hacer click en el Logo o letras del 
+ - Al hacer click en el Logo o letras, se lista todos los productos
+ - Al hacer click en el menu nos saldra el tipo de producto que queremos consultar. Por ejemplo
+ - 
 
 El proyecto BsaleTest-Frontend cuenta con una carpeta 
 
