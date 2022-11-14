@@ -28,11 +28,15 @@ Con ayuda de este sistema pudimos subir los diferentes desarrollos de Backend y 
  - Enlace del proyecto: https://bsaletest-frontend-production-68dc.up.railway.app/
  - Se uso una imagen tipo gif para colocar una publicidad en la cabecera
  - Al hacer click en el Logo o letras, se lista todos los productos
- - Al hacer click en el menu nos saldra el tipo de producto que queremos consultar. Por ejemplo
- - 
+ - Al hacer click en el menu nos saldra el tipo de producto que queremos consultar. Por ejemplo, si hago click en Snack espero que me reenvie los siguientes datos. ![Snack](https://user-images.githubusercontent.com/66794568/201570642-27aade87-f520-49dd-b2a7-01c3827e0297.png)
+ - El archivo principal se llama index.html
+ - El sistema se adapta a cualquier tipo de dispositivo
+ - El proyecto BsaleTest-Frontend cuenta con una carpeta llamada src, en la cual se encuentra los estilos, javascript, font e img.
+ - Al iniciar el proyecto se cargara todos los productos en la base de datos.
 
-El proyecto BsaleTest-Frontend cuenta con una carpeta 
-
-
-
-#OBJETIVO
+## OBJETIVO:
+- Proponer soluciones para el desarrollo del sistema
+- Dar a conocer a los diferentes usuario el inventario que hay en la tienda.
+- Dar a conocer los precios y las ofertas de los productos.
+- Usar API para conectarse con la base de datos externo.
+- Facilitar al usuario la busqueda de productos
