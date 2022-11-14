@@ -77,15 +77,11 @@ fetch('https://bsaletest-production-c296.up.railway.app/api/category')
     const elementos = document.querySelectorAll(".nav-enlace")
     console.log(elementos.length);
 
-    // elementos.addEventListener("click", elements=>{
-    //     alert("hiciste click")
-    // })
-
     for(var i = 0; i<elementos.length;i++){
         elementos[i].addEventListener('click', (e) => {  
-          console.log('Item numero ' + Array.from(elementos).indexOf(e.target) + ' del array');
+        //   console.log('Item numero ' + Array.from(elementos).indexOf(e.target) + ' del array');
           const puntero = Array.from(elementos).indexOf(e.target) + 1;
-          console.log(puntero);
+        //   console.log(puntero);
             consultarCategoria(puntero)
         });
       }
@@ -126,8 +122,6 @@ function consultarCategoria(id){
                 cargarProductos(data);
             })
         })
-
-    alert("hiciste click " + id)
 }
 
 //HACER CLICK AL LOGO, MOSTRAR TODOS LOS PRODUCTOS

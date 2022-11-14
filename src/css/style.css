@@ -1,6 +1,3 @@
-/* fuentes: josh, krylon 
-colores: #76C893, #52B69A, #34A0A4, #168AAD
-BETTER SHADOWS: X:4 Y: 4, BLUR: 60, OPACITY: 15%*/
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 :root {
     --main-color: #F15722;
@@ -8,7 +5,6 @@ BETTER SHADOWS: X:4 Y: 4, BLUR: 60, OPACITY: 15%*/
     --secundary-color-2 : #0268A6;
     --color : white;
     --white-background: white;
-    /* --grey-background: rgb(238, 238, 238); */
   }
 *{
     margin: 0px;
@@ -211,7 +207,6 @@ h1{
 }
 /*--PRODUCTOS--*/
 .section-product{
-    /* background: var(--white-background); */
     margin: 10px 0px;
     display: flex;
     justify-content: space-around;
@@ -298,11 +293,6 @@ h1{
     background: var(--white-background);
     color: var(--main-color);
 }
-/* @media only screen and (min-width: 320px){
-    .card-product{
-        width: 100%;
-    }
-} */
 @media only screen and (max-width: 768px){
     .section-product{
         flex-wrap: wrap;
